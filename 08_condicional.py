@@ -1,4 +1,4 @@
-### Condicionales ###
+### Conditionals ###
 
 my_condition = True 
 
@@ -7,7 +7,7 @@ if my_condition: # Es lo mismo que if my_condition == True:
     
 my_condition = 5 * 2
 
-if my_condition == 11: # Esto se ve si es True o False. Por ejemplo si es 10 el valor lo imprimiria
+if my_condition == 11: # Esto se ve si es True o False. Por exempla si es 10 el valor lo imprimiria
     print("Segundo if")
     
 if my_condition != 11:
@@ -20,4 +20,14 @@ elif my_condition == 1:
 else:
     print("Es menor o igual que 10")
     
-print("La ejecuciópn continua")
+print("La ejecución continua")
+
+my_string = ""
+
+if not my_string:
+    print("Mi cadena de texto no es vacia ")
+    
+if my_string == "Mi cadena de texto":
+    print("Estas cadenas de texto coinciden")
+    
+### otros conditionals o operadores logicos and y or ###
